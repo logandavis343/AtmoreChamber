@@ -4,13 +4,17 @@ using System.Diagnostics;
 
 namespace AtmoreChamber.Controllers
 {
-    public class HomeController : Controller
+    public class AtmoreChamberController : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            return View("ExecutiveBoard");
         }
 
+        public IActionResult ExecutiveBoard()
+        { 
+            return View();
+        }
 
         public IActionResult Error()
         {
