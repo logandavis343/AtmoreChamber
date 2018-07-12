@@ -26,7 +26,12 @@ namespace AtmoreChamber.Controllers
             return View("RelocationandHelpfulResources");
         }
 
-        public IActionResult Error()
+        public IActionResult InformationRequest()
+        {
+            return View("InformationRequest");
+        }
+
+            public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
