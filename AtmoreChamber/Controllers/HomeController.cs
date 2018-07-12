@@ -11,6 +11,10 @@ namespace AtmoreChamber.Controllers
             return View();
         }
 
+        public IActionResult Contact()
+        {
+            return View("Contact");
+        }
 
         public IActionResult Error()
         {

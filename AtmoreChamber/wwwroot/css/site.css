@@ -7,13 +7,18 @@
 body {
     padding-top: 54px;
     /*background-color: #fcfaea;*/
-    background-color:white;
+    background-color: white;
+    font-family: "Century Schoolbook", serif;
 }
 
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
+}
+
+h1, .h1 {
+    font-size: 2.3rem;
 }
 
 a {
@@ -141,3 +146,62 @@ a {
     .row-striped {
         padding: 15px 0;
     }
+
+/*This the Brandons Updates
+  The margin checkbox needs to be control.
+  The Text is align'right under the map. 
+*/
+strong, b {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+#contactFormStandard {
+    width: 280px;
+    height: auto;
+}
+/*  */
+
+
+
+
+.formbox {
+    float: left;
+}
+
+.gmapbox {
+    float: right;
+}
+
+.gmap {
+    position: relative;
+    resize: both;
+    /* border: 1px 1px 1px 1px dashed black; */
+    width: 600px;
+    height: 438.75px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .gmap {
+        position: relative;
+        resize: both;
+        /* border: 1px 1px 1px 1px dashed black; */
+        width: 380px;
+        margin: auto;
+    }
+}
+
+
+
+.footermenu {
+    display: inline;
+    position: center;
+}
+
+.classWithPad {
+    padding-left: 4em;
+}

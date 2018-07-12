@@ -12,11 +12,26 @@ namespace AtmoreChamber.Controllers
         }
 
         public IActionResult OurHistory()
-        { 
-            return View();
+        {
+            return View("OurHistory");
         }
 
-        public IActionResult Error()
+        public IActionResult OurCommunity()
+        { 
+            return View("OurCommunity");
+        }
+
+        public IActionResult RelocationandHelpfulResources()
+        {
+            return View("RelocationandHelpfulResources");
+        }
+
+        public IActionResult InformationRequest()
+        {
+            return View("InformationRequest");
+        }
+
+            public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
