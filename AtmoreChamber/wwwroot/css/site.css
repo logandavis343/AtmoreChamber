@@ -37,6 +37,16 @@ a {
     background-color: #db303e;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 300px;
