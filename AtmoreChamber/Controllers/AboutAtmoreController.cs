@@ -12,8 +12,18 @@ namespace AtmoreChamber.Controllers
         }
 
         public IActionResult OurHistory()
+        {
+            return View("OurHistory");
+        }
+
+        public IActionResult OurCommunity()
         { 
-            return View();
+            return View("OurCommunity");
+        }
+
+        public IActionResult RelocationandHelpfulResources()
+        {
+            return View("RelocationandHelpfulResources");
         }
 
         public IActionResult Error()
