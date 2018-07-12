@@ -16,6 +16,10 @@ body {
     }
 }
 
+a {
+    color: #db303e;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 300px;
@@ -32,6 +36,10 @@ body {
 
 .bg-dark-teal {
     background-color: #21a3a2;
+}
+
+.bg-light-teal {
+    background-color: #2eaaa9;
 }
 
 .bg-atmore-red {
@@ -98,3 +106,18 @@ body {
     .navbar-dark .navbar-nav .nav-link.disabled {
         color: rgba(255, 255, 255, 0.25);
     }
+
+    /* Swiper CSS */
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}

@@ -11,10 +11,10 @@
     <title>@ViewData["Title"] - Application</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/site.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet">
 
 
 </head>
@@ -45,7 +45,7 @@
                             About The Chamber
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownAtmoreChamber">
-                            <a class="dropdown-item" href="/AboutChamber/OurHistory">Our Executive Board</a>
+                            <a class="dropdown-item" href="/AtmoreChamber/ExecutiveBoard">Our Executive Board</a>
 
                         </div>
                     </li>
@@ -121,8 +121,8 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     @RenderSection("Scripts", required: false)
 </body>
