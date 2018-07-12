@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\executiveboard\" />
+    <Folder Include="wwwroot\images\boardofdirectors\" />
   </ItemGroup>
 
 </Project>
