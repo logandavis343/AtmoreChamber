@@ -37,6 +37,16 @@ a {
     background-color: #db303e;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 300px;
@@ -167,41 +177,3 @@ input[type="checkbox"] {
 /*  */
 
 
-
-
-.formbox {
-    float: left;
-}
-
-.gmapbox {
-    float: right;
-}
-
-.gmap {
-    position: relative;
-    resize: both;
-    /* border: 1px 1px 1px 1px dashed black; */
-    width: 600px;
-    height: 438.75px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .gmap {
-        position: relative;
-        resize: both;
-        /* border: 1px 1px 1px 1px dashed black; */
-        width: 380px;
-        margin: auto;
-    }
-}
-
-
-
-.footermenu {
-    display: inline;
-    position: center;
-}
-
-.classWithPad {
-    padding-left: 4em;
-}
