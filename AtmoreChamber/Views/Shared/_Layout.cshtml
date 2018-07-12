@@ -50,10 +50,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="/Calendar/">Calendar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="/StayConnected/">Stay Connected</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/StayConnected/">Shop the Chamber</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -97,7 +100,7 @@
     <div class="container">
         @RenderBody()
 
-        <hr>
+        <hr />
 
         <!-- Call to Action Section -->
         <div class="row mb-4">
@@ -113,7 +116,52 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark-teal">
         <div class="container">
-            <p class="m-0 text-center text-white">&copy; 2018 - Atmore Area Chamber of Commerce</p>
+            <div class="row sponsor-row align-content-center">
+                <div class="col-6 p-0">
+                    <div class="container sponsor-image">
+                        <h4 class="align-left sponsor-heading">Cornerstone Sponsors</h4>
+                        <a href="https://pci-nsn.gov/" alt="Poarch Creek Indians">
+                            <img class="rounded" src="~/images/sponsors/pci.png" alt="Poarch Creek Indians" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="container sponsor-image">
+                        <a href="https://cityofatmore.com/" alt="City of Atmore">
+                            <img class="rounded float-right" src="~/images/sponsors/atmorelogo.png" alt="Atmore Alabama" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2 p-0">
+
+                </div>
+            </div>
+            <div class="row">   
+                <div class="col-4 p-0">
+                    <div class="container sponsor-image">
+                        <h4 class="sponsor-heading">Diamond Sponsors</h4>
+                        <a href="https://www.fnbandt.com/" alt="First National Bank & Trust">
+                            <img class="rounded" src="~/images/sponsors/FNBTLogo.png" alt="First National Bank" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="container sponsor-image">
+                        <a href="https://www.unitedbank.com/" alt="United Bank">
+                            <img class="rounded" src="~/images/sponsors/UnitedLogo.png" alt="United Bank" />
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-4 p-0">
+                    <div class="container sponsor-image">
+                        <a href="https://windcreekatmore.com/" alt="Windcreek Atmore">
+                            <img class="rounded" src="~/images/sponsors/wind-creek.png" alt="Wind Creek" />
+                        </a>
+                    </div>
+                </div>
+           </div>
+        
         </div>
         <!-- /.container -->
     </footer>
@@ -123,6 +171,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="~/vendor/jquery/jquery.min.js"></script>
     <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
     @RenderSection("Scripts", required: false)
 </body>

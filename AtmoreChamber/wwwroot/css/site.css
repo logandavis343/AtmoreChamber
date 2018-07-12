@@ -20,20 +20,6 @@ a {
     color: #db303e;
 }
 
-.carousel-item {
-    height: 65vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
 .bg-dark-teal {
     background-color: #21a3a2;
 }
@@ -45,6 +31,23 @@ a {
 .bg-atmore-red {
     background-color: #db303e;
 }
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    max-height:300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+
 .card-header {
     color:white;
 }
@@ -107,17 +110,18 @@ a {
         color: rgba(255, 255, 255, 0.25);
     }
 
-    /* Swiper CSS */
+    .sponsor-image {
+        height:auto;
+        width:auto;
+        max-height:100%;
+        max-width:100%;
+        margin:auto;
+    }
 
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+    .sponsor-heading {
+        color:rgba(255, 255, 255, 0.75);
+    }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-}
+    .sponsor-row {
+        max-height:300px;
+    }
