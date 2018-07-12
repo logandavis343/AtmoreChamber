@@ -1,17 +1,61 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<h1 class="mt-2">Contact Us</h1>
+<hr />
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <div class="col-md-6 formbox">
+        <form id="contactFormStandard" onsubmit="return StandardSubmit()">
+            <input name="Name" size="30" type="text" class="span12 form-control" placeholder="Name*" required="" autofocus="">
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+            <input name="Email" size="30" type="email" class="span12 form-control" placeholder="E-mail Address*" required="">
+
+            <textarea name="Message" class="span12 form-control" placeholder="Message*" rows="6" required=""></textarea>
+
+            <input name="SecurityAnswer" size="30" type="text" id="validatorStandard" class="span12 form-control" placeholder="What is 2+3?*">
+            <!-------
+                REPLACE VALUE WITH THE CLIENT FORM IDENTIFIER
+            -------->
+
+            <br>
+            <p>
+                Would you like to receive a copy of our Newsletter?<br>
+                <input type="checkbox" name="request.calendar" class="form-control" value="Yes"> Yes!
+            </p>
+            <button type="submit" id="btnContactStandardSubmit" class="btn btn-primary top10">Send</button>
+            <br>
+            <small> (*Required Fields)</small>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <iframe class="gmap" align="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.9875904062988!2d-87.49597888440852!3d31.026595381535575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889079b6ca7b3e2f%3A0xb99cfcf4f8170e3e!2s137+N+Main+St%2C+Atmore%2C+AL+36502!5e0!3m2!1sen!2sus!4v1451928927512" width="400" height="450" frameborder="0" id="iFrameResizer0" scrolling="no"></iframe>
+        <input type="hidden" name="form-id" value="4f4765f0-c307-4c5d-9841-97ea162433a2" />
+    </div>
+
+</div>
+<div class="row float-right" id="address-row">
+    <div class="col-md-5">
+
+    </div>
+    <div class="col-md-5">
+        <address class="classWithPad">
+            <i class="fa fa-map-pin"></i><b> Location:</b> 137 North Main Street<br />Atmore, Alabama 36502<br /><br />
+            <i class="fa fa-phone"></i><b> Phone</b>: 251-368-3055 / Fax: 251-368-0800<br /><br />
+            <i class="fa fa-envelope"></i> <b>E-Mail</b>: <a href=mailto:director@atmorechamber.com>director@atmorechamber.com</a><br /><br />
+            <i class="facebook f icon"></i> <a href=https://www.facebook.com/AtmoreChamber>Follow us on Facebook</a>
+        </address>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
