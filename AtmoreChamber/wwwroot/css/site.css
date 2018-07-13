@@ -193,7 +193,9 @@ input[type="checkbox"] {
 }
 
 .hr-agroove {
-    border: 3px groove #db303e;
+    width: auto;
+    height: 2px;
+    background-color: #2eaaa9;
 }
 
 
