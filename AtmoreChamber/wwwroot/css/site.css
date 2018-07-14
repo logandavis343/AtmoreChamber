@@ -46,7 +46,21 @@ a {
 }
 
 /* CUSTOM STUFF (for Classes/Ids) START */
-/* Item alignment. if you need to align items left and right, add this as/to their class */
+
+div .middle-center {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div .middle-align {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+
+/* Item alignment. if you need to align items left and right, add this as/to their class START */
 .item-align-left {
     margin: 0;
     text-align: left;
@@ -56,6 +70,7 @@ a {
     margin: 0;
     text-align: right;
 }
+/* END */
 /* END */
 
 .navbar-brand {
@@ -315,6 +330,19 @@ footer {
 }
 /* END */
 
+/* Footer Decoration START */
+.footer-decor {
+    margin: auto;
+    border: 10px #db303e;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #db303e;
+    color: #21a3a2;
+    radial-gradient: #db303e;
+}
+/* END */
+
 /* Footer Menu START */
 .footer-menu {
     margin: auto;
@@ -350,14 +378,7 @@ footer {
 
 .pipe {
     vertical-align: middle;
+    color: white;
 }
 /* END */
 /* END */
-
-
-
-div .middle-align {
-    margin-top: auto;
-    margin-bottom: auto;
-    vertical-align: middle;
-}
