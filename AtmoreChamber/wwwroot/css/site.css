@@ -288,29 +288,50 @@ footer {
 }
 /*END*/
 
+/*Footer Menu START*/
 .footer-menu {
-    border-top: 4px solid #db303e;
+    margin: auto;
+    width: auto;
+    height: auto;
+    background: #2eaaa9c0;
+    border-top: 2px solid lightgray;
     padding-left: 4px;
     padding-right: 4px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.copyright-statement {
+    text-align: left;
+    vertical-align: middle;
+    color: white;
 }
 
 .footer-menu-list {
-    float: right;
+    text-align: right;
 }
 
-.footer-menu-list li {
-    float: right;
+/*.footer-menu-list li {
+    text-align: right;
     display: inline;
     vertical-align: middle;
-}
+}*/
 
 .pipe {
     vertical-align: middle;
 }
+/*END*/
+/*END*/
 
-.copyright-statement {
-    float: left;
-    vertical-align: middle;
+
+
+
+.p-f-l {
+    padding-left: 4px;
+    text-align: left;
 }
-/*END*/
-/*END*/
+
+.p-f-r {
+    padding-right: 4px;
+    text-align: right;
+}
