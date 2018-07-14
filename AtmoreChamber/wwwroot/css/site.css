@@ -29,9 +29,9 @@ a {
     color: #db303e;
 }
 
-a:hover {
-    color: #21a3a2;
-}
+    a:hover {
+        color: #21a3a2;
+    }
 
 .bg-dark-teal {
     background-color: #21a3a2;
@@ -58,7 +58,7 @@ a:hover {
 .carousel-item {
     height: 65vh;
     min-height: 300px;
-    max-height:300px;
+    max-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,7 +72,7 @@ a:hover {
 
 
 .card-header {
-    color:white;
+    color: white;
 }
 
 
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height:50px;
+    max-height: 50px;
 }
 
 .navbar-dark .navbar-brand {
@@ -139,37 +139,23 @@ a:hover {
         color: rgba(255, 255, 255, 0.25);
     }
 
-    .sponsor-image {
-        height:auto;
-        width:auto;
-        max-height:100%;
-        max-width:100%;
-        margin:auto;
-    }
+/* Calendar CSS */
+.row-striped:nth-of-type(odd) {
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+}
 
-    .sponsor-heading {
-        color:rgba(255, 255, 255, 0.75);
-    }
+.row-striped:nth-of-type(even) {
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+}
 
-    .sponsor-row {
-        max-height:300px;
-    }
+.row-striped {
+    padding: 15px 0;
+}
 
-    /* Calendar CSS */
-
-    .row-striped:nth-of-type(odd) {
-        background-color: #efefef;
-        border-left: 4px #000000 solid;
-    }
-
-    .row-striped:nth-of-type(even) {
-        background-color: #ffffff;
-        border-left: 4px #efefef solid;
-    }
-
-    .row-striped {
-        padding: 15px 0;
-    }
+.card-link {
+}
 
 /*This the Brandons Updates
   The margin checkbox needs to be control.
@@ -189,10 +175,83 @@ input[type="checkbox"] {
     height: auto;
 }
 
-/* Footer customization */
+.carousel-image {
+    width: 720px;
+    height: 480px;
+    background-size: cover;
+    background-image: url(../images/gallery/atmorestation.jpg);
+    background-repeat: no-repeat;
+}
+
+.item h3 {
+    margin: 0 0 95% 0;
+    background-color: #00000080;
+    text-align: center;
+    color: white;
+}
+
+
+/*Home page carousel START*/
+.AtmoreCarousel .carousel-dash {
+    visibility: visible;
+}
+
+.AtmoreCarousel .active {
+    background-color: #21a3a280;
+}
+
+.carousel-item .active {
+    background-color: #21a3a280;
+}
+
+.carousel-indicators li {
+    background-color: #db303e80;
+}
+
+.carousel-control-prev-icon {
+    visibility: hidden;
+}
+
+.carousel-control-next-icon {
+    visibility: hidden;
+}
+
+.AtmoreCarousel .fa-chevron-left {
+    font-size: 28px;
+    color: #db303e80;
+    text-shadow: white 5px 0px;
+}
+
+.AtmoreCarousel .fa-chevron-right {
+    font-size: 28px;
+    color: #db303e80;
+    text-shadow: white -5px 0px;
+}
+/*END*/
+
+/*Footer START*/
+footer {
+    margin: auto;
+    min-height: 25.6px;
+    height: auto;
+    width: auto;
+    background-color: #2eaaa9;
+    color: white;
+}
+
+    footer a {
+        vertical-align: middle;
+        color: #d2232a;
+    }
+
+        footer a:hover {
+            color: white;
+        }
+
+
+/* Footer customization START */
 .main-footer {
     border-top: 4px solid #db303e;
-
 }
 
 .hr-agroove {
@@ -201,5 +260,47 @@ input[type="checkbox"] {
     background-color: #2eaaa9;
 }
 
+/*Sponsors START*/
+.sponsor-image {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 8px 0 8px 0;
+}
 
+.sponsor-heading {
+    color: rgba(255, 255, 255, 0.75);
+}
 
+.sponsor-row {
+    max-height: 300px;
+}
+/*END*/
+
+.footer-menu {
+    border-top: 4px solid #db303e;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.footer-menu-list {
+    float: right;
+}
+
+.footer-menu-list li {
+    float: right;
+    display: inline;
+    vertical-align: middle;
+}
+
+.pipe {
+    vertical-align: middle;
+}
+
+.copyright-statement {
+    float: left;
+    vertical-align: middle;
+}
+/*END*/
+/*END*/
