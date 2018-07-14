@@ -71,6 +71,10 @@ a {
     color: white;
 }
 
+.nounderline {
+    text-decoration: none !important
+}
+
 .btn-primary {
     color: #fff;
     background-color: #db303e;
