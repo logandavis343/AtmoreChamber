@@ -100,7 +100,7 @@
     </div>
     <!-- /.container -->
     <!-- Footer -->
-    <footer class="py-5 bg-dark-teal main-footer">
+    <footer class="py-md-5 bg-dark-teal main-footer">
         <div class="container">
             <div class="row sponsor-row align-content-center">
                 <div class="col-md-6 p-0">
@@ -149,36 +149,33 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-        <!-- /.container -->
-
-        <div class="py-5 bg-dark-teal">
-            <div class="footer-menu">
-                <div class="col-md-6">
-                    <!-- left -->
-                    <p class="copyright-statement">&copy; @DateTime.Now.Year - Atmore Area Chamber of Commerce</p>
-                </div>
-                <div class="col-md-6 footer-menu-list">
-                    <!-- right -->
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><text class="pipe">&nbsp;|&nbsp;</text></li>
-                        <li><a href="/page/Recent-News">Recent News</a></li>
-                        <li><text class="pipe">&nbsp;|&nbsp;</text></li>
-                        <li><a href="/page/links">Helpful Links</a></li>
-                        <li><text class="pipe">&nbsp;|&nbsp;</text></li>
-                        <li><a href="/page/Contact">Contact</a></li>
-                        <li><text class="pipe">&nbsp;|&nbsp;</text></li>
-                        <li><a href="/page/membership-application">Join Today</a></li>
-                    </ul>
-                    <!-- end right -->
-                </div>
-            </div>
         </div>
     </footer>
 
+    <div class="row footer-menu">
+        <div class="col-sm-6 middle-align">
+            <!-- left -->
+            <p class="footer-menu-left copyright-statement middle-align">
+                &copy; @DateTime.Now.Year - My ASP.NET Application
+            </p>
+        </div>
 
+        <div class="col-sm-6 middle-align">
+            <!-- right -->
+            <p class="footer-menu-right middle-align">
+                <a href="/">Home</a>
+                <text class="footer-menu-list pipe">&nbsp;|&nbsp;</text>
+                <a class="footer-menu-list" href="/page/Recent-News">Recent News</a>
+                <text class="pipe">&nbsp;|&nbsp;</text>
+                <a class="footer-menu-list" href="/page/links">Helpful Links</a>
+                <text class="footer-menu-list pipe">&nbsp;|&nbsp;</text>
+                <a class="footer-menu-list" href="/page/Contact">Contact</a>
+                <text class="footer-menu-list pipe">&nbsp;|&nbsp;</text>
+                <a class="footer-menu-list" href="/page/membership-application">Join Today</a>
+            </p>
+            <!-- end right -->
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="~/vendor/jquery/jquery.min.js"></script>
