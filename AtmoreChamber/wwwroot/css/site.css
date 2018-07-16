@@ -72,8 +72,18 @@ div .middle-align {
     text-align: right;
 }
 
-/* END */
+/* Icon customization */
+.fa-mobile {
+    font-size: 125%;
+    vertical-align: middle;
+}
 
+.fa-phone {
+    vertical-align: middle;
+}
+
+/* END */
+/* END */
 .w-52 {
     margin: auto;
     width: 52% !important;
