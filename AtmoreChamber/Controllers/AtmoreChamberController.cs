@@ -16,10 +16,16 @@ namespace AtmoreChamber.Controllers
             return View();
         }
 
-        public IActionResult BoardOfDirectorsAndStaff()
+        public IActionResult BoardOfDirectors()
         {
             return View();
         }
+
+        public IActionResult Staff()
+        {
+            return View();
+        }
+
 
         public IActionResult Error()
         {
