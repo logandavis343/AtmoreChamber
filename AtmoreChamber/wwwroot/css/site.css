@@ -306,7 +306,9 @@ footer {
     border-top: 4px solid #db303e;
 }
 
-.hr-agroove {
+.sponsor-hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: auto;
     height: 2px;
     background-color: #2eaaa9;
@@ -370,14 +372,8 @@ footer {
     color: #2eaaa9;
 }
 
-/* .footer-menu-list li {
-    text-align: right;
-    display: inline;
-    vertical-align: middle;
-} */
-
 .pipe {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     color: white;
 }
 /* END */
