@@ -6,7 +6,7 @@
 
 body {
     padding-top: 54px;
-    /*background-color: #fcfaea;*/
+    /* background-color: #fcfaea; */
     background-color: white;
     font-family: "Century Schoolbook", serif;
 }
@@ -45,6 +45,34 @@ a {
     background-color: #db303e;
 }
 
+/* CUSTOM STUFF (for Classes/Ids) START */
+
+div .middle-center {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div .middle-align {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+
+/* Item alignment. if you need to align items left and right, add this as/to their class START */
+.item-align-left {
+    margin: 0;
+    text-align: left;
+}
+
+.item-align-right {
+    margin: 0;
+    text-align: right;
+}
+/* END */
+/* END */
+
 .navbar-brand {
     display: inline-block;
     padding-top: 0.3125rem;
@@ -54,10 +82,6 @@ a {
     line-height: inherit;
     white-space: nowrap;
 }
-
-/*.Atmore-Card .col-lg-8 mb-4 {
-    margin-bottom: 0;
-}*/
 
 .portfolio-item {
     margin-bottom: 30px;
@@ -157,10 +181,9 @@ a {
     padding: 15px 0;
 }
 
-/*This the Brandons Updates
+/* This the Brandons Updates
   The margin checkbox needs to be control.
-  The Text is align'right under the map. 
-*/
+  The Text is align'right under the map. */
 strong, b {
     font-weight: bold;
 }
@@ -183,14 +206,14 @@ input[type="checkbox"] {
 }
 
 
-/*Home page carousel START*/
+/* Home page carousel START */
 carousel .AtmoreCarousel {
     margin: 0;
     padding: 0;
 }
 
 .AtmoreCarousel .active {
-    /*background-color: #21a3a280;*/
+    /* background-color: #21a3a280; */
 }
 
 .carousel-item .active {
@@ -208,13 +231,13 @@ carousel .AtmoreCarousel {
 
 .carousel-control-prev-icon {
     width: auto;
-    /*padding-left: 150%;*/
+    /* padding-left: 150%; */
     visibility: hidden;
 }
 
 .carousel-control-next-icon {
     width: auto;
-    /*padding-right: 150%;*/
+    /* padding-right: 150%; */
     visibility: hidden;
 }
 
@@ -223,21 +246,27 @@ carousel .AtmoreCarousel {
 }
 
 .AtmoreCarousel .fa-chevron-left {
-    /*padding-left: 150%;*/
+    /* padding-left: 150%; */
     font-size: 28px;
     color: #db303e80;
     text-shadow: white 5px 0px;
 }
 
 .AtmoreCarousel .fa-chevron-right {
-    /*padding-right: 150%;*/
+    /* padding-right: 150%; */
     font-size: 28px;
     color: #db303e80;
     text-shadow: white -5px 0px;
 }
-/*END*/
+/* END */
 
-/*Contact Us page START*/
+/* Board of Directors and Staff page START */
+div .accordion button {
+    background-color: black;
+}
+/* END */
+
+/* Contact Us page START */
 .Contact-Us {
     margin-left: 20px;
     margin-right: 20px;
@@ -251,9 +280,9 @@ carousel .AtmoreCarousel {
 .col-md-4 .classWithPad {
     padding-left: 4px;
 }
-/*END*/
+/* END */
 
-/*Footer START*/
+/* Footer START */
 footer {
     margin: auto;
     min-height: 25.6px;
@@ -272,7 +301,6 @@ footer {
             color: white;
         }
 
-
 /* Footer customization START */
 .main-footer {
     border-top: 4px solid #db303e;
@@ -284,7 +312,7 @@ footer {
     background-color: #2eaaa9;
 }
 
-/*Sponsors START*/
+/* Sponsors START */
 .sponsor-image {
     height: auto;
     width: auto;
@@ -300,9 +328,22 @@ footer {
 .sponsor-row {
     max-height: 300px;
 }
-/*END*/
+/* END */
 
-/*Footer Menu START*/
+/* Footer Decoration START */
+.footer-decor {
+    margin: auto;
+    border: 10px #db303e;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #db303e;
+    color: #21a3a2;
+    radial-gradient: #db303e;
+}
+/* END */
+
+/* Footer Menu START */
 .footer-menu {
     margin: auto;
     width: auto;
@@ -329,14 +370,15 @@ footer {
     color: #2eaaa9;
 }
 
-/*.footer-menu-list li {
+/* .footer-menu-list li {
     text-align: right;
     display: inline;
     vertical-align: middle;
-}*/
+} */
 
 .pipe {
     vertical-align: middle;
+    color: white;
 }
-/*END*/
-/*END*/
+/* END */
+/* END */
