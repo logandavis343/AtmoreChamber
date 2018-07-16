@@ -70,8 +70,13 @@ div .middle-align {
     margin: 0;
     text-align: right;
 }
+
 /* END */
-/* END */
+
+.w-52 {
+    margin: auto;
+    width: 52% !important;
+}
 
 .navbar-brand {
     display: inline-block;
@@ -224,10 +229,6 @@ carousel .AtmoreCarousel {
     background-color: #db303e80;
 }
 
-.w-52 {
-    margin: auto;
-    width: 52%!important;
-}
 
 .carousel-control-prev-icon {
     width: auto;
