@@ -225,6 +225,11 @@ carousel .AtmoreCarousel {
     background-color: #21a3a280;
 }
 
+.w-52 {
+    margin: auto;
+    width: 52% !important;
+}
+
 .carousel-indicators li {
     background-color: #db303e80;
 }
