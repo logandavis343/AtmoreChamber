@@ -205,7 +205,8 @@ input[type="checkbox"] {
 
 .item h3 {
     margin: 0 0 95% 0;
-    background-color: #00000080;
+    background-color: #000000;
+    opacity: 0.5;
     text-align: center;
     color: white;
 }
@@ -222,11 +223,18 @@ carousel .AtmoreCarousel {
 }
 
 .carousel-item .active {
-    background-color: #21a3a280;
+    background-color: #21a3a2;
+    opacity: 0.5;
+}
+
+.w-52 {
+    margin: auto;
+    width: 52% !important;
 }
 
 .carousel-indicators li {
-    background-color: #db303e80;
+    background-color: #db303e;
+    opacity: 0.5;
 }
 
 
@@ -249,7 +257,8 @@ carousel .AtmoreCarousel {
 .AtmoreCarousel .fa-chevron-left {
     /* padding-left: 150%; */
     font-size: 28px;
-    color: #db303e80;
+    color: #db303e;
+    opacity: 0.5;
     text-shadow: white 5px 0px;
 }
 
